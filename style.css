@@ -1,0 +1,44 @@
+body{
+    width: 84.18%;/*1200px;*/
+    margin: 0 8% 0 8%;
+    border: 1px solid black;
+}
+
+header{
+    background-color: aqua;
+    height: 60px;
+}
+
+nav {
+    background-color: aquamarine;
+    height: 60px;
+}
+
+aside{
+    background-color: salmon;
+    width: 27%;/*330px;*/
+    min-height: 500px;
+    margin-left: 1%;
+    float: left;
+    padding-left: 2%;
+}
+
+article{
+    background-color: blue;
+    width: 65%;/*820px;*/
+    min-height: 500px;
+    margin-right: 1%;
+    float: left;
+    padding: 0 2% 0 2% ;
+}
+
+footer{
+    background-color: yellowgreen;
+    height: auto;
+    clear:left;
+    min-height: 40px;
+}
+
+header, nav, footer{
+    text-align: center;
+}
